@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<img id="dice1" src="1.svg">
+<img id="dice2" src="1.svg">
+<img id="dice3" src="1.svg">
+<img id="dice4" src="1.svg">
+<img id="dice5" src="1.svg">
+<img id="dice6" src="1.svg">
+
+<script type="text/javascript">
+   var num = Math.random(); 
+
+   var num = Math.random(); 
+   var whole= Math.floor (num * 6) + 1; 
+   document.getElementByID("dice1").src = whole + ".svg" ; 
+
+   var num2 = Math.random (); 
+   var whole2 = Math.floor (num2 *6) +1
+   document.getElementByID("dice2").src = whole + ".svg" ; 
+
+   var num3 = Math.random (); 
+   var whole3 = Math.floor (num3 *6) +1
+   document.getElementByID("dice3").src = whole + ".svg" ; 
+
+   var num4 = Math.random (); 
+   var whole4 = Math.floor (num4 *6) +1
+   document.getElementByID("dice4").src = whole + ".svg" ; 
+
+   var num5 = Math.random (); 
+   var whole5= Math.floor (num5 *6) +1
+   document.getElementByID("dice5").src = whole + ".svg" ; 
+
+
+   console.log(num); 
+
+
+   
+   document.getElementByID("dice1").src = "2.svg";
+</script>
+</body>
+</html>
